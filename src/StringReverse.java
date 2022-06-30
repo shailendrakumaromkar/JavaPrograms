@@ -9,7 +9,7 @@ public class StringReverse {
 		
 		
 		
-		//Method2
+		//Method 2
 		
 	}
 
