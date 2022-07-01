@@ -34,6 +34,64 @@ public class DupCharInString {
 //				}
 			}
 		System.out.println(input);
+		
+		
+		
+		
+		
+		String s1= "Neha Omkar";
+		char[] c1=s1.toCharArray();
+		Map<Character, Integer> in= new HashMap();
+		
+		for(char cs: c1) {
+			if(cs==' ')
+				continue;
+			
+			if(in.containsKey(cs)) {
+				in.put(cs, in.get(cs)+1);
+			} else {
+				in.put(cs, 1);
+			}
+		}
+		
+		System.out.println(in);
+		
+		
+		
+		
+		
+		
+		
+		String p ="Ghanishka Omkar";
+		char [] cp = p.toCharArray();
+		
+		
+		
+		Map<Character, Integer> pari = new HashMap();
+		
+		for(char par : cp) {
+			if(par==' ')
+				continue;
+			
+			if(pari.containsKey(par)) {
+				pari.put(par,  pari.get(par)+1);
+			} 
+			else {
+				pari.put(par, 1);
+			}
+		}
+		
+		System.out.println(pari);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		}
 	}
 
