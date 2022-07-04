@@ -87,8 +87,25 @@ public class DupCharInString {
 		
 		
 		
+		String name = "Pari Ghanishka";
 		
+		char[] pg = name.toCharArray();
 		
+		Map<Character, Integer> i = new HashMap<Character, Integer>();
+		
+		for(char cad : pg) {
+			if(cad ==' ')
+				continue;
+			
+			if(i.containsKey(cad)) {
+				i.put(cad,  i.get(cad)+1);
+			}
+			else {
+				i.put(cad, 1);
+			}
+		}
+		
+		System.out.println(i);
 		
 		
 		

@@ -9,7 +9,7 @@ public class StringReverse {
 		
 		
 		
-		//Method 2
+		//Method2
 		
 		String s3="";
 		for(int i=s1.length()-1;i>=0;i--) {
